@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Headers for both the page itself and the navbar-->
+    <h1 class="title">CSS - Cascading Style Sheets</h1>
+    <h1 class="nav-bar"></h1>
+
+    <!--Main contains both the info article and the aside for syntax-->
+    <main class="language">
+      <!--Article that contains two sections, one for a description and one for links-->
+      <article class="info">
+        <section class="info__description">
+          <h2>Description</h2>
+          <div>
+            CSS stands for Cascading Style Sheets. It is a language designed to
+            specify the overall appearance of webpages as well as the appearance
+            and structure of the text and elements such as images and buttons on
+            webpages and their layout.
+          </div>
+          <div>
+            Styles can be specified with CSS using internal style sheet
+            definitions which are placed right into HTML/XHTML code or in
+            external files.
+          </div>
+          <div>
+            CSS topics include creating stylesheets, associating styles with
+            specific HTML elements, setting background & text color, styling
+            lists, setting the width & height of elements, media types, and
+            more.
+          </div>
+        </section>
+        <section class="info__links">
+          <h2>Links and websites for CSS</h2>
+          <div>
+            <a href="https://scrimba.com/learn/introtocss" target="_blank"
+              >Intro to CSS Course:</a
+            >
+            This is a great course for this just starting out in CSS.
+          </div>
+          <div>
+            <a href="https://scrimba.com/learn/htmlcss" target="_blank"
+              >CSS and HTML Crash Course:</a
+            >
+            Explains the fundamentals of CSS very well.
+          </div>
+          <div>
+            <a
+              href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+              target="_blank"
+              >Guide-to-Flexbox</a
+            >
+          </div>
+          <div>
+            <a href="http://flexboxfroggy.com/" target="_blank"
+              >Flexbox Froggy:</a
+            >Fun game with beginner flexbox challenges.
+          </div>
+          <div><a href="" target="_blank"></a></div>
+        </section>
+      </article>
+
+      <!--The aside fot the syntax bar-->
+      <aside class="syntax-box">
+        <div>
+          <h2 class="syntax-box__header">CSS Syntax</h2>
+          <div class="syntax-box__syntax">
+            <ul>
+              <h3>Syntax basic form</h3>
+              <li>Selector(e.g. "h1"), curly bracket, property name(e.g. "font-size"), colon, value(e.g. "1 em"), semi-colon, closing curly bracket</li>
+              <li>Example- h1 {font-size: 1em;}</li>
+              
+              <h3>Text</h3>
+              <li>font-famly = font used, e.g. Arial</li>
+              <li>font-size = text size, e.g. 60px</li>
+              <li>color = text color, e.g. black</li>
+             
+              <h3>Box model</h3>
+              <li>content = text</li>
+              <li>padding = space around an element's content, inside of any defined borders;</li>
+              <li>e.g. padding: 2 em;</li>
+              <li>border = sets border style for all borders, in the format: border: (solid, dashed, doted, double) (width) (color)</li>
+              <li>e.g border: solid 1em black</li>
+              <li>margin =  used to create space around elements, outside of any defined borders</li>
+              <li>e.g. margin: 2 em;</li>
+            </ul>
+            <div class="syntax-box__syntax__image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Box-model.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
