@@ -8,11 +8,12 @@
 }
 
 .title {
-
+    text-align: center;
+    border: 1.5em solid black;
 }
 
 .navbar {
-
+    
 }
 
 .intro {
