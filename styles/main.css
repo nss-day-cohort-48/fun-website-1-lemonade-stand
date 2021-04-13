@@ -13,7 +13,10 @@
 }
 
 .navbar {
-    
+    display: flex;
+    justify-content: space-around;
+    border: 1px black solid;
+    margin: 1em;
 }
 
 .intro {
