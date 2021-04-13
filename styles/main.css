@@ -1,0 +1,25 @@
+@import "./description.css";
+@import "./intro.css";
+@import "./link.css";
+@import "./syntax.css";
+
+.container {
+
+}
+
+.title {
+    text-align: center;
+    border: 1.5em solid black;
+}
+
+.navbar {
+    
+}
+
+.intro {
+
+}
+
+.description {
+
+}
