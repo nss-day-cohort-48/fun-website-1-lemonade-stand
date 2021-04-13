@@ -16,7 +16,12 @@
     display: flex;
     justify-content: space-around;
     border: 1px black solid;
-    margin: 1em;
+    margin: 1em 0;
+    padding: .4em;
+}
+
+.nav__item {
+    
 }
 
 .intro {
